@@ -1,5 +1,4 @@
-- name: vpc setup
-  hosts: localhost
+- hosts: localhost
   connection: local
   gather_facts: False
   tasks:
