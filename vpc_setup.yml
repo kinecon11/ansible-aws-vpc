@@ -151,6 +151,6 @@
        - igw_out.gateway_id
        - pubRT_out.route_table.id
        - NATGW_out.nat_gateway_id
-       -priRT_out.route_table.id
+       - priRT_out.route_table.id
 
 
