@@ -1,5 +1,4 @@
-- name: vpc setup
-  hosts: localhost
+- hosts: localhost
   connection: local
   gather_facts: False
   tasks:
@@ -9,7 +8,8 @@
       name: Create vprofile VPC
       ec2_vpc_net:
         name: "{{vpc_name}}"
-        cidr_block: "{{region}}"
+        cidr_block: "{{vpcCidr}}"
+        region: "{{region}}"
         dns_support: yes
         dns_hostname: yes
         tenancy: default
