@@ -16,7 +16,7 @@ region: "us-east-1"
 
 #zone Names
 Zone1: us-east-1a
-Zone1: us-east-1b
-Zone1: us-east-1c
+Zone2: us-east-1b
+Zone3: us-east-1c
 
 state: present
