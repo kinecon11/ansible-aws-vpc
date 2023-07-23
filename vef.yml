@@ -5,7 +5,7 @@
     - name: Import VPC Variables
       include_vars: vars/vpc_setup
 
-      name: Create vprofile VPC
+    - name: Create vprofile VPC
       ec2_vpc_net:
         name: "{{vpc_name}}"
         cidr_block: "{{vpcCidr}}"
